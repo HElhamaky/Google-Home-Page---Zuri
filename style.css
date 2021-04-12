@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:visited {
+  color: rgba(0, 0, 0, 0.87);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+nav * {
+  margin-left: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_dots {
+  height: 25px;
+  filter: opacity(70%);
+}
+
+.nav_avatar {
+  height: 33px;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  width: 35rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+main img {
+  width: 17rem;
+  align-self: center;
+}
+
+.input {
+  display: flex;
+  margin-top: 2rem;
+  position: relative;
+  width: 120%;
+}
+
+.input input {
+  border: 0px solid;
+  flex: 10 0 0;
+  height: 2.75rem;
+  border-radius: 50px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  padding-left: 3rem;
+}
+
+input:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.input img {
+  height: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  position: relative;
+}
+
+.input .mic {
+  left: -50px;
+}
+
+.input .search {
+  right: -50px;
+  filter: opacity(70%);
+  height: 1.25rem;
+}
+
+.btns_container {
+  align-self: center;
+  margin: 2rem;
+}
+
+.btns_container button {
+  padding: 0.75rem;
+  border: none;
+  background-color: #f8f9fa;
+  margin: 0.25rem;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #3c4043;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.footer_top {
+  display: flex;
+  height: 3rem;
+  border-bottom: 1px solid #dadce0;
+  align-items: center;
+  padding-left: 2rem;
+  font-size: 15px;
+}
+
+.footer_buttom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+.footer_buttom * {
+  margin: 0 1rem;
+}
